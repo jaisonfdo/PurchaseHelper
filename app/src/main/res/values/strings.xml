@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PurchaseHelper</string>
+
+    <string name="li_banner_image_desc">Banner Image</string>
+    <string name="li_collection_name">Sample Collection</string>
+    <string name="li_sample_listing">__ Listings</string>
+    <string name="li_pricing_state_free">Free</string>
+    <string name="li_pricing_state_available">Explore</string>
+    <string name="li_pricing_state_purchase">$-:—</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="cli_banner_style" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/li_image_size</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="cli_title_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:textColor">@color/cl_title_text_color</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="cli_listings_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:textColor">@color/cl_listing_text_color</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+    </style>
+
+    <style name="cli_price_text_style" parent="cli_listings_text_style">
+        <item name="android:textColor">@color/cl_price_text_color</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+    </style>
+
+
+
+</resources>

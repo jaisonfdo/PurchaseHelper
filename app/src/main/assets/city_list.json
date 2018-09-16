@@ -1,0 +1,60 @@
+{
+  "data": {
+    "city_listing": [
+      {
+        "id": "1",
+        "name": "Washington",
+        "product_id": "",
+        "thumb_id": 1,
+        "is_free": true,
+        "list_count": 5,
+        "is_purchase": false
+      },
+      {
+        "id": "2",
+        "name": "Springfield",
+        "product_id": "replace with your product ID",
+        "thumb_id": 2,
+        "is_free": false,
+        "list_count": 84,
+        "is_purchase": false
+      },
+      {
+        "id": "3",
+        "name": "Franklin",
+        "product_id": "replace with your product ID",
+        "thumb_id": 3,
+        "is_free": false,
+        "list_count": 25,
+        "is_purchase": false
+      },
+      {
+        "id": "4",
+        "name": "Greenville",
+        "product_id": "replace with your product ID",
+        "thumb_id": 4,
+        "is_free": false,
+        "list_count": 231,
+        "is_purchase": false
+      },
+      {
+        "id": "5",
+        "name": "Clinton",
+        "product_id": "",
+        "thumb_id": 5,
+        "is_free": true,
+        "list_count": 28,
+        "is_purchase": false
+      },
+      {
+        "id": "6",
+        "name": "Georgetown",
+        "product_id": "replace with your product ID",
+        "thumb_id": 6,
+        "is_free": false,
+        "list_count": 43,
+        "is_purchase": false
+      }
+    ]
+  }
+}

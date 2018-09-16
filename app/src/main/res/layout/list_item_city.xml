@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvCollectionItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/li_cv_margin"
+    app:cardCornerRadius="@dimen/li_cv_cornor_radius">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivBanner"
+            style="@style/cli_banner_style"
+            android:contentDescription="@string/li_banner_image_desc"
+            android:src="@drawable/city_1" />
+
+        <LinearLayout
+            android:id="@+id/llPurchase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/items_inbetween_medium"
+            app:layout_constraintTop_toBottomOf="@+id/ivBanner">
+
+            <TextView
+                android:id="@+id/tvCollectionName"
+                style="@style/cli_title_text_style"
+                android:text="@string/li_collection_name" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/items_inbetween_xsmall"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tvListingCount"
+                    style="@style/cli_listings_text_style"
+                    android:text="@string/li_sample_listing" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/items_inbetween_small"
+                    android:layout_marginRight="@dimen/items_inbetween_small"
+                    android:background="@color/cl_divider_color" />
+
+                <TextView
+                    android:id="@+id/tvPricingStatus"
+                    style="@style/cli_price_text_style"
+                    android:text="$ 5:00" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

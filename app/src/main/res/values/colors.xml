@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--City Listing card(cl)-->
+
+    <color name="cl_title_text_color">#333333</color>
+    <color name="cl_listing_text_color">#4F4F4F</color>
+    <color name="cl_price_text_color">#FF7800</color>
+    <color name="cl_explore_text_color">#006DFF</color>
+    <color name="cl_free_text_color">#219653</color>
+    <color name="cl_divider_color">#C4C4C4</color>
+
+</resources>
